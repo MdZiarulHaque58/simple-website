@@ -1,0 +1,98 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Meera+Inimai&family=Pacifico&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Style+Script&display=swap');
+
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background: url(download.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.navber{
+    height: 80px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.logo{
+    width: 120px;
+    height: 100%;
+    padding: 0px 20px;
+}
+.navber ul {
+    float: right;
+    margin-right: 20px;
+
+}
+.navber ul li {
+    list-style: none;
+    margin: 0px 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.navber ul li a {
+    text-decoration: none;
+    color: rgb(105, 153, 155);
+    padding: 6px 13px;
+    transition: 0.4s;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navber ul li a.active,
+.navber ul li a:hover {
+    background: rgb(8, 0, 0);
+    border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    /* transform: translate(-50%,-50%); */
+    user-select: none;
+
+}
+.center h1{
+    color: rgba(214, 242, 33, 0.95);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.center h2{
+    color: rgba(214, 242, 33, 0.95);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.center .buttons {
+    margin: 35px 250px;
+}
+.buttons button{
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(105, 153, 155);
+    background: rgb(8, 0, 0);
+    border: 1px solid skyblue;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+
+}
+.buttons .btn{
+    margin-left: 20px;
+}
+.buttons .btn a{
+    text-decoration: none;
+    color: rgb(105, 153, 155);
+}
+.buttons button:hover{
+    background: rgb(23, 21, 21);
+}
